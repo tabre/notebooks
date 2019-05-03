@@ -1,0 +1,36 @@
+==================
+REPORT DESCRIPTION
+==================
+N          -     Number of observations in population
+µ          -     Mean of population
+σ          -     Standard deviation of population
+MDp        -     Mean deviation of population
+ns         -     Sample size setpoint: integer or range (for random test-to-test sample size)
+n          -     Mean sample size
+
+METHOD     -     Method of calculating sample dispersion
+MEAN       -     Mean of test-to-test sample dispersion
+%ERR       -     Percentage of population dispersion represented by mean test-to-test sample dispersion difference from corresponding population parameter
+                 Calculated as: (|S-σ|/σ)*100 and (|MDs-MDp|/MDp)*100
+BEST       -     Number of tests ran where sample dispersion was closest to corresponding population parameter
+%BEST      -     Percentage of tests ran where sample dispersion was closest to corresponding population parameter
+
+========
+SUMMARY:
+========
+Column: weight
+Tests ran: 1000
+
+N:	413
+µ:	5492.559
+σ:	2507.842
+MDp:	1449.626
+
+ns:	30
+n:	29.287
+
+======       ====         ====         ====         =====        
+METHOD       MEAN         %ERR         BEST         %BEST        
+======       ====         ====         ====         =====        
+S            1478.863     41.03        1            0.1          
+MD           1190.801     18.708       999          99.9         
